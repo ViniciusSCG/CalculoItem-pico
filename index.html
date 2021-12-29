@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora do tio Peka</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calc">
+            <h1>Calculadora</h1>
+            <h3>requintado</h3>
+
+            <p class="instrucoes">Para calcular a quantidade necessária para craftar equipamento épico, adicione abaixo o número de itens necessário para realizar o craft.</p>
+
+            <input id="item1" name="item1" type="number" placeholder="Quantos aços/platina?">
+            <input id="item2" name="item2" type="number" placeholder="Quantas quitenssência/fragmento iluminate/esfera">
+            <input id="item3" name="item3" type="number" placeholder="Quantas bugiganga/lunar/anima">
+
+            <button onclick="calcular()">Calcular</button>
+
+            <p><strong>Para craftar, serão necessários:</strong></p>
+            <div id="resultado">
+            </div>
+        </div>
+
+        <div class="calc2">
+
+            <h1 class="white-text">Calculadora</h1>
+            <h3 class="white-text">raro</h3>
+
+            <p class="instrucoes">Para calcular a quantidade necessária para craftar equipamento épico, adicione abaixo o número de itens necessário para realizar o craft.</p>
+
+            <input id="item1Raro" name="item1" type="number" placeholder="Quantos aços/platina?">
+            <input id="item2Raro" name="item2" type="number" placeholder="Quantas quitenssência/fragmento iluminate/esfera">
+            <input id="item3Raro" name="item3" type="number" placeholder="Quantas bugiganga/lunar/anima">
+
+            <button onclick="calcularRaro()">Calcular</button>
+
+            <p><strong>Para craftar, serão necessários:</strong></p>
+            <div id="resultado-raro">
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
